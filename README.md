@@ -1,4 +1,4 @@
-# cbr2pdf
+# cb2pdf
 
 Comic book archive to PDF converter written for linux bash.
 
@@ -14,4 +14,4 @@ You need to install following packages:
 
 Just run ```convertComicBookArchives2Pdf.sh``` in the folder containing the [*.cbr |*.cbz].
 
-A PDF formatted copy of the file (including the name) with ending *.cb[r|z].pdf will be copied to the original folder.
+A PDF formatted copy of the file (including the name) with ending *.cb[r|z].pdf will be copied from "/tmp" folder (```mktemp -d```) to the original folder.
