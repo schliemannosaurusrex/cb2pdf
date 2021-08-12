@@ -9,3 +9,9 @@ I'm using Linux Mint and will keep it compatible with it.
 ## Prerequisites
 You need to install following packages:
   ```img2pdf pdftk tree unrar unzip```
+
+## Usage
+
+Just run ```convertComicBookArchives2Pdf.sh``` in the folder containing the [*.cbr |*.cbz].
+
+A PDF formatted copy of the file (including the name) with ending *.cb[r|z].pdf will be copied to the original folder.
