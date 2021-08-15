@@ -38,5 +38,3 @@ else
 	rm -R $JPEGS
 	rm "${ORIGINAL_FOLDER}/${1}"
 fi
-
-
