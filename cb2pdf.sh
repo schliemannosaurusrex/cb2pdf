@@ -18,7 +18,7 @@ else
     unzip -j "$1" -d "$JPEGS"
 fi
 
-ls -1 ./*jpg | xargs -L1 -I {} img2pdf {} -o {}.pdf
+ls -1 ./*jp*g | xargs -L1 -I {} img2pdf {} -o {}.pdf
 pdftk *.pdf cat output combined.pdf
 cp "combined.pdf" "$ORIGINAL_FOLDER/$1.pdf"
 cd ..
